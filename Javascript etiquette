@@ -1,0 +1,8 @@
+function genererEtiquette() {
+  var reference = document.getElementById("reference").value;
+  var designation = document.getElementById("designation").value;
+  var date = new Date().toLocaleDateString();
+
+  var etiquette = document.getElementById("etiquette");
+  etiquette.innerHTML = "<b>Ref:</b> " + reference + "<br>" + designation + "<br>" + date;
+}
