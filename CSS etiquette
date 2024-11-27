@@ -1,0 +1,14 @@
+.container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+#etiquette {
+  width: 4cm;
+  height: 2cm;
+  border: 1px solid black;
+  margin: 20px auto;
+  padding: 5px;
+  font-size: 10px;
+  text-align: center;
+}
