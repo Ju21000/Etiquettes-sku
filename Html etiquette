@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Générateur d'étiquettes</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Générateur d'étiquettes</h1>
+  <div class="container">
+    <label for="reference">Référence :</label>
+    <input type="text" id="reference" name="reference"><br><br>
+    <label for="designation">Désignation :</label>
+    <input type="text" id="designation" name="designation"><br><br>
+    <button onclick="genererEtiquette()">Générer l'étiquette</button>
+  </div>
+  <div id="etiquette">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
